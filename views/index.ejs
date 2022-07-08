@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg " style="background: rgb(66, 142, 180);">
+      <div class="container-fluid">
+        <a style="font-size: 25px; color: white;" class="navbar-brand" href="#"><i class="bi bi-reception-2"></i><i class="bi bi-reception-4"></i> Khaosat.net</a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a id="dn" style="color: white;" class="nav-link active" aria-current="page" href="./dangnhap">Đăng nhập</a>
+          </li>
+          <li class="nav-item">
+            <a id="dk" style="color: white;" class="nav-link" href="./dangky">Đăng ký</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav -->
+
+    <!-- tiêu đề -->
+
+    <div style="margin-top: 50px" class="container">
+      <div class="row">
+        <div class="col-sm-5 col-md-7">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img style="width:600px;" src="https://f10.photo.talk.zdn.vn/5673721792165597643/b14937cf2d5cee02b74d.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img style="width:600px;" src="https://f12.photo.talk.zdn.vn/5752630133570285778/bee4f7ef3c72ff2ca663.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img style="width:600px;" src="https://f7.photo.talk.zdn.vn/522960697919790363/9423f992310ff251ab1e.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-5 offset-sm-2 col-md-5 offset-md-0">
+          <h4 style="padding-top: 20px" ><%= title  %> </h4>
+        <br>
+        <p style="padding-top: 15px;">
+          Khảo sát trực tuyến được xem như là những cuộc phỏng vấn tự hoàn thành,
+          trong đó, các câu hỏi sẽ tự xuất hiện trước các đối tượng điều tra thay vì 
+          các hình thức truyền thống như phỏng vấn mặt đối mặt hay qua điện thoại.</p>
+
+          <br><br><br>
+          <nav class="navbar">
+            <div class="container-fluid">
+              <form style="width: 100%;" class="d-flex" role="search">
+                <label for="exampleDataList" class="form-label"></label>
+                  <input class="form-control me-2" list="datalistOptions" id="exampleDataList" type="search" placeholder="Search" aria-label="Search">
+                  
+                    <datalist id="datalistOptions">
+                      <option value="Khảo sát công nghệ">
+                      <option value="khảo sát tài chính">
+                      <option value="khảo sát trường học">
+                      <option value="khảo sát tình hình covid">
+                    </datalist>
+
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- tiêu đề -->
+
+    <!-- Khảo sát công nghệ -->
+    <div style="margin-top: 50px; " class="container">
+
+      <h4 style="margin-bottom: 20px">KHẢO SÁT CÔNG NGHỆ</h4>
+
+      <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
+        <!--   -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f20-zpc.zdn.vn/7802685677422089262/c7affc7453e490bac9f5.jpg" class="card-img-top" alt="anh1"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none;" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f20-zpc.zdn.vn/448245166847905477/6b56d633bcae7ff026bf.jpg" class="card-img-top" alt="anh2"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f10.photo.talk.zdn.vn/3561795954225266614/2d198a11e08c23d27a9d.jpg" class="card-img-top" alt="anh3"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f5.photo.talk.zdn.vn/5580612677584846566/71c1c3a5a9386a663329.jpg" class="card-img-top" alt="anh4"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f22-zpc.zdn.vn/5909078442837092229/b8a22bc84155820bdb44.jpg" class="card-img-top" alt="anh5"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f17-zpc.zdn.vn/5115714992362181911/e10a5b6f31f2f2acabe3.jpg" class="card-img-top" alt="anh6"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+       
+      </div>
+    </div>
+    <!--  khảo sát công nghệ-->
+
+    <!-- Khảo sát du lich -->
+    <div style="margin-top: 50px;" class="container">
+
+      <h4 style="margin-bottom: 20px">KHẢO SÁT DU LỊCH</h4>
+
+      <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f12.photo.talk.zdn.vn/7209980303691970673/38168e02e59f26c17f8e.jpg" class="card-img-top" alt="anh7"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f24-zpc.zdn.vn/8396493945089192632/212fca4aa1d762893bc6.jpg" class="card-img-top" alt="anh8"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f2.photo.talk.zdn.vn/3039784126473723485/f8e8ac5ac7c704995dd6.jpg" class="card-img-top" alt="anh9"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f8.photo.talk.zdn.vn/3980441998798462284/c4c4e84483d9408719c8.jpg" class="card-img-top" alt="anh10"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f2.photo.talk.zdn.vn/4798241318789113925/632665f30e6ecd30947f.jpg" class="card-img-top" alt="anh11"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div style="border: none" class="col">
+          <div class="p-0">
+            <div class="card" style="width: 26.3rem; border: none;">
+              <a href="./traloi"><img src="https://f21-zpc.zdn.vn/7756307639224065947/624923724bef88b1d1fe.jpg" class="card-img-top" alt="anh12"></a>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+       
+      </div>
+    </div>
+    <!--  khảo sát du lịch-->
+
+
+
+    <!-- liên hệ -->
+    <div style="margin-top: 100px; background: rgb(66, 142, 180); height: 600px;" class="row g-0">
+      <div class="col-sm-6 col-md-12">
+        <div style="margin-top: 70px" class="container bg-light">
+          <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
+
+            
+
+            <div class="col">
+              <h6 style="letter-spacing: 5px;">HỖ TRỢ KHÁCH HÀNG</h6>
+              <hr style="width: 20%;">
+              <h6>HOTLINE:</h6> <br> <p style="margin-top: -20px">0329 91 61 25</p><br>
+              <h6 style="margin-top: -20px;letter-spacing: 5px;">EMAIL: </h6><br><p style="margin-top: -20px">support@khaosat.net</p>
+              <h6 style="margin-top: 50px; letter-spacing: 5px;">VỀ KHAOSAT.NET</h6>
+              <hr width="20%">
+              <p>Hỏi đáp</p>
+              <p>Bảo mật</p>
+              <p>Điều khoản</p>
+              <p style="margin-bottom: 50px">Blog</p>
+            </div>
+
+            <div class="col order-1">
+              <h6 style="letter-spacing: 5px;">KHAOSAT.ME</h6>
+              <hr style="width: 20%;">
+              <P>
+                Copyright © 2022 khaosat.me <br>
+                All rights reserved <br>
+                Phiên bản 4.0.262
+              </P>
+              <h6 style="margin-top: 50px; letter-spacing: 5px;">NGÔN NGỮ</h6>
+              <hr width="20%">
+              <a style="text-decoration: none" href=""><p>Tiếng Việt</p></a>
+              <a style="text-decoration: none;" href=""><p>Tiếng Anh</p></a>
+              
+            </div>
+
+
+            <div class="col order-5">
+              <h6 style="letter-spacing: 5px;">KẾT NỐI</h6>
+              <hr style="width: 20%;">
+              <a class="fb" style="font-size: 40px" href=""><i class="bi bi-facebook"></i></a>
+              <a class="yt" style="font-size: 40px; padding-left: 20px; color: red;" href=""><i class="bi bi-youtube"></i></a>
+              <h6 style="margin-top: 50px; letter-spacing: 5px;">ĐẠI HỌC ĐÔNG Á</h6>
+              <hr width="20%">
+              <P>Một sản phẩm của:</P>
+              <h6>NHÓM 6 SINH VIÊN TRƯỜNG ĐẠI HỌC ĐÔNG Á</h6>
+              <P>33 Xô Viết Nghệ Tĩnh, Phường Hòa Cường Nam, Q. Hải Châu, TP. Đà Nẵng.</P>
+              <P>Lớp: IT20A2B</P>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- liên hệ -->
+
+
+  </body>
+</html>

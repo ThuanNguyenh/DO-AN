@@ -1,0 +1,17 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card:hover{
+  border: #00B7FF 1px solid;
+  opacity: 0.5;
+  transition: 0.75s;
+}
+.fb:hover{
+ color: #7321b2;
+ transition: 1.5s;
+}
